@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --content-width: 900px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background: url(/images/qp465.png);
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.textart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+    padding: 16px;
+    border-radius: 32px;
+    
+}
+
+.textart img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.testimonies {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.testimonies .row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+} 
+
+.testimonies .row .testimony {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.content {
+    width: var(--content-width);
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    max-width: 100%;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.gallery .row {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+} 
+
+.gallery .row img {
+    width: 200px;
+    max-width: 50%;
+}
